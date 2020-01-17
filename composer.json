@@ -1,5 +1,5 @@
 {
-    "name": "per3evere/nsqphp",
+    "name": "zamrih/nsqphp",
     "description": "PHP client for NSQ for Laravel && Lumen",
     "license": "MIT",
     "keywords": [
