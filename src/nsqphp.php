@@ -187,7 +187,7 @@ class nsqphp
      *
      * @param LoopInterface $loop
      */
-    public function setRequeueStrategy(LoopInterface $loop)
+    public function setLoop(LoopInterface $loop)
     {
         $this->loop = $loop;
     }
