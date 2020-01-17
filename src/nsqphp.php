@@ -183,6 +183,16 @@ class nsqphp
     }
 
     /**
+     * Set external loop interface
+     *
+     * @param LoopInterface $loop
+     */
+    public function setRequeueStrategy(LoopInterface $loop)
+    {
+        $this->loop = $loop;
+    }
+
+    /**
      * Destructor
      */
     public function __destruct()
